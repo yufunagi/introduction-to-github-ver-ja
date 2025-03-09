@@ -6,39 +6,39 @@
   and that the file was named correctly.
 -->
 
-## Step 3: Open a pull request
+## ステップ 3: プルリクエストを開く
 
-_Nice work making that commit! :sparkles:_
+_コミットお疲れ様でした！ :sparkles:_
 
-Now that you have made a change to the project and created a commit, it’s time to share your proposed change through a pull request!
+プロジェクトに変更を加え、コミットを作成したので、プルリクエストを通じて提案された変更を共有する時が来ました。
 
-**What is a pull request?**: Collaboration happens on a _[pull request](https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request)_. The pull request shows the changes in your branch to other people and allows people to accept, reject, or suggest additional changes to your branch. In a side by side comparison, this pull request is going to keep the changes you just made on your branch and propose applying them to the `main` project branch. For more information about pull requests, see "[About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
+**プルリクエストとは？**: コラボレーションは_[プルリクエスト](https://docs.github.com/ja/get-started/quickstart/github-glossary#pull-request)_で行われます。プルリクエストは、ブランチの変更を他の人に示し、他の人がブランチに対する追加の変更を受け入れたり、拒否したり、提案したりできるようにします。左右の比較では、このプルリクエストは、ブランチで行った変更を保持し、それらを`main`プロジェクトブランチに適用することを提案します。プルリクエストの詳細については、「[プルリクエストについて](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)」を参照してください。
 
-### :keyboard: Activity: Create a pull request
+### :keyboard: アクティビティ: プルリクエストを作成する
 
-You may have noticed after your commit that a message displayed indicating your recent push to your branch and providing a button that says **Compare & pull request**.
+コミット後、ブランチへの最近のプッシュを示すメッセージと、**Compare & pull request**というボタンが表示されていることに気付いたかもしれません。
 
 ![screenshot of message and button](/images/compare-and-pull-request.png)
 
-To create a pull request automatically, click **Compare & pull request**, and then skip to step 6 below. If you don't click the button, the instructions below walk you through manually setting up the pull request.
+プルリクエストを自動的に作成するには、**Compare & pull request**をクリックし、以下のステップ6に進みます。ボタンをクリックしない場合は、以下の手順に従ってプルリクエストを手動で設定します。
 
-1. Click on the **Pull requests** tab in the header menu of your repository.
-2. Click **New pull request**.
-3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `my-first-branch`.
+1. リポジトリのヘッダーメニューにある**Pull requests**タブをクリックします。
+2. **New pull request**をクリックします。
+3. **base:**ドロップダウンで、**main**が選択されていることを確認します。
+4. **compare:**ドロップダウンを選択し、`my-first-branch`をクリックします。
 
    ![screenshot showing both branch selections](/images/pull-request-branches.png)
 
-5. Click **Create pull request**.
-6. Enter a title for your pull request. By default, the title will automatically be the name of your branch. For this exercise, let's edit the field to say `Add my first file`.
-7. The next field helps you provide a description of the changes you made. Here, you can add a description of what you’ve accomplished so far. As a reminder, you have: created a new branch, created a file, and made a commit.
+5. **Create pull request**をクリックします。
+6. プルリクエストのタイトルを入力します。デフォルトでは、タイトルは自動的にブランチの名前になります。この演習では、フィールドを編集して`Add my first file`と表示します。
+7. 次のフィールドでは、行った変更の説明を入力できます。ここでは、これまでに達成したことの説明を追加できます。念のため、新しいブランチを作成し、ファイルを作成し、コミットしました。
 
    ![screenshot showing pull request](/images/Pull-request-description.png)
 
-8. Click **Create pull request**. You will automatically be navigated to your new pull request.
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+8. **Create pull request**をクリックします。新しいプルリクエストに自動的に移動します。
+9. 約20秒待ってから、このページ（手順に従っているページ）を更新します。[GitHub Actions](https://docs.github.com/ja/actions)が自動的に次のステップに更新されます。
 
 > [!NOTE]
-> You may see evidence of GitHub Actions running on the tab with the pull request opened! The image below shows a line you might see on your pull request after the Action finishes running.
+> プルリクエストが開いているタブでGitHub Actionsが実行されている証拠が表示される場合があります。下の画像は、Actionの実行が終了した後、プルリクエストに表示される可能性のある行を示しています。
 > 
 > ![screenshot of an example of an actions line](/images/Actions-to-step-4.png)

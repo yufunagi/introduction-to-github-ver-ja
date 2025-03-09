@@ -1,27 +1,27 @@
-name: Step 1, Create a branch
+name: ステップ 1, ブランチを作成
 
-# This step listens for the learner to create branch `my-first-branch`.
-# This workflow updates from step 1 to step 2.
+# このステップは、学習者がブランチ `my-first-branch` を作成するのを待ちます。
+# このワークフローは、ステップ 1 からステップ 2 に更新されます。
 
-# This will run every time we create a branch or tag.
-# Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+# これは、ブランチまたはタグを作成するたびに実行されます。
+# 参照: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
   create:
 
-# Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+# 参照: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
-  # Need `contents: read` to checkout the repository.
-  # Need `contents: write` to update the step metadata.
+  # リポジトリをチェックアウトするには `contents: read` が必要です。
+  # ステップのメタデータを更新するには `contents: write` が必要です。
   contents: write
 
 jobs:
-  # Get the current step to only run the main job when the learner is on the same step.
+  # 現在のステップを取得して、学習者が同じステップにいる場合にのみメインジョブを実行します。
   get_current_step:
-    name: Check current step number
+    name: 現在のステップ番号を確認
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: チェックアウト
         uses: actions/checkout@v4
       - id: get_step
         run: |
@@ -30,34 +30,34 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_create_a_branch:
-    name: On create a branch
+    name: ブランチ作成時
     needs: get_current_step
 
-    # We will only run this action when:
-    # 1. This repository isn't the template repository.
-    # 2. The step is currently 1.
-    # 3. The event is a branch.
-    # 4. The branch name is `my-first-branch`.
-    # Reference: https://docs.github.com/en/actions/learn-github-actions/contexts
-    # Reference: https://docs.github.com/en/actions/learn-github-actions/expressions
+    # これは以下の場合にのみ実行されます:
+    # 1. このリポジトリがテンプレートリポジトリではない。
+    # 2. 現在のステップが 1 である。
+    # 3. イベントがブランチである。
+    # 4. ブランチ名が `my-first-branch` である。
+    # 参照: https://docs.github.com/en/actions/learn-github-actions/contexts
+    # 参照: https://docs.github.com/en/actions/learn-github-actions/expressions
     if: >-
       ${{ !github.event.repository.is_template
           && needs.get_current_step.outputs.current_step == 1
           && github.ref_type == 'branch'
           && github.ref_name == 'my-first-branch' }}
 
-    # We'll run Ubuntu for performance instead of Mac or Windows.
+    # Mac または Windows ではなく、パフォーマンスのために Ubuntu を実行します。
     runs-on: ubuntu-latest
 
     steps:
-      # We'll need to check out the repository so that we can edit the README.
-      - name: Checkout
+      # README を編集できるように、リポジトリをチェックアウトする必要があります。
+      - name: チェックアウト
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Let's get all the branches.
+          fetch-depth: 0 # すべてのブランチを取得しましょう。
 
-      # In README.md, switch step 1 for step 2.
-      - name: Update to step 2
+      # README.md で、ステップ 1 をステップ 2 に切り替えます。
+      - name: ステップ 2 に更新
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

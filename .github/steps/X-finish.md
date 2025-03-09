@@ -1,34 +1,34 @@
 <!--
   <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
+  学んだことのレビュー、フィードバックの依頼、次のステップの提供。
 -->
 
-## Finish
+## 完了
 
-_Congratulations, you've completed this course and joined the world of developers!_
+_おめでとうございます。このコースを完了し、開発者の世界へ仲間入りしました！_
 
-<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
+<img src=https://octodex.github.com/images/collabocats.jpg alt=お祝い width=300 align=right>
 
-Here's a recap of your accomplishments:
+これまでの成果をまとめます。
 
-- You learned about GitHub, repositories, branches, commits, and pull requests.
-- You created a branch, a commit, and a pull request.
-- You merged a pull request.
-- You made your first contribution! :tada:
+- GitHub、リポジトリ、ブランチ、コミット、プルリクエストについて学びました。
+- ブランチ、コミット、プルリクエストを作成しました。
+- プルリクエストをマージしました。
+- 初めての貢献をしました！ :tada:
 
-### What's next?
+### 次は何をしますか？
 
-If you'd like to make a profile README, use the quickstart instructions below or follow the instructions in the [Managing your profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) article.
+プロフィールのREADMEを作成したい場合は、以下のクイックスタートの手順を使用するか、[プロフィールのREADMEの管理](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)の記事の手順に従ってください。
 
-1. Make a new public repository with a name that matches your GitHub username.
-2. Create a file named `README.md` in its root. The "root" means not inside any folder in your repository.
-3. Edit the contents of the `README.md` file.
-4. If you created a new branch for your file, open and merge a pull request on your branch.
-5. Lastly, we'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github).
+1. GitHubのユーザー名と一致する名前で、新しいパブリックリポジトリを作成します。
+2. ルートに`README.md`という名前のファイルを作成します。「ルート」とは、リポジトリ内のどのフォルダーにも含まれていないことを意味します。
+3. `README.md`ファイルの内容を編集します。
+4. ファイル用に新しいブランチを作成した場合は、ブランチでプルリクエストを開いてマージします。
+5. 最後に、このコースについてのご意見を[ディスカッションボード](https://github.com/orgs/skills/discussions/categories/introduction-to-github)でお聞かせください。
 
-Check out these resources to learn more or get involved:
+詳細を学ぶか、参加するには、次のリソースを確認してください。
 
-- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- 学生ですか？ [Student Developer Pack](https://education.github.com/pack)をご覧ください。
+- [別のGitHub Skillsコースを受講する](https://github.com/skills)。
+- [GitHubのスタートガイドのドキュメントを読む](https://docs.github.com/ja/get-started)。
+- 貢献するプロジェクトを見つけるには、[GitHub Explore](https://github.com/explore)をチェックしてください。

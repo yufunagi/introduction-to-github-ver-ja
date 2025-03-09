@@ -4,40 +4,40 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 2: Commit a file
+## ステップ 2: ファイルをコミットする
 
-_You created a branch! :tada:_
+_ブランチを作成しました！ :tada:_
 
-Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+ブランチを作成すると、`main`ブランチを変更せずにプロジェクトを編集できます。 ブランチができたので、ファイルを作成して最初のコミットを行いましょう！
 
-**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
+**コミットとは？**: _[コミット](https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_とは、プロジェクト内のファイルとフォルダーに対する一連の変更のことです。 コミットはブランチに存在します。 詳細については、「[コミットについて](https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)」を参照してください。
 
-### :keyboard: Activity: Your first commit
+### :keyboard: アクティビティ: 初めてのコミット
 
-The following steps will guide you through the process of committing a change on GitHub. A commit records changes in renaming, changing content within, creating a new file, and any other changes made to your project. For this exercise, committing a change requires first adding a new file to your new branch.
+以下の手順では、GitHub で変更をコミットするプロセスを説明します。 コミットは、名前の変更、コンテンツの変更、新しいファイルの作成、およびプロジェクトに加えられたその他の変更を記録します。 この演習では、変更をコミットするには、まず新しいファイルを新しいブランチに追加する必要があります。
 
 > [!NOTE]
-> `.md` is a file extension that creates a Markdown file. You can learn more about Markdown by visiting "[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" in our docs or by taking the "[Communicating using Markdown](https://github.com/skills/communicate-using-markdown)" Skills course.
+> `.md` は、Markdown ファイルを作成するファイル拡張子です。 Markdown の詳細については、ドキュメントの「[基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)」または「[Markdown を使用したコミュニケーション](https://github.com/skills/communicate-using-markdown)」スキルコースをご覧ください。
 
-1. On the **< > Code** tab in the header menu of your repository, make sure you're on your new branch `my-first-branch`.
+1. リポジトリのヘッダーメニューにある **< > Code** タブで、新しいブランチ `my-first-branch` にいることを確認します。
 
-2. Select the **Add file** drop-down and click **Create new file**.
+2. **ファイルの追加** ドロップダウンを選択し、**新しいファイルを作成** をクリックします。
 
    ![create new file option](/images/create-new-file.png)
 
-3. In the **Name your file...** field, enter `PROFILE.md`.
+3. **ファイルに名前を付けてください...** フィールドに、`PROFILE.md` と入力します。
 
-4. In the **Enter file contents here** area, copy the following content to your file:
+4. **ここにファイルの内容を入力してください** 領域に、次のコンテンツをファイルにコピーします。
 
    ```
-   Welcome to my GitHub profile!
+   GitHub プロフィールへようこそ！
    ```
 
    ![profile.md file screenshot](/images/my-profile-file.png)
 
-5. Click **Commit changes...** in the upper right corner above the contents box. For commits, you can enter a short commit message that describes what changes you made. This message helps others know what's included in your commit. GitHub offers a simple default message, but let's change it slightly for practice. First, enter `Add PROFILE.md` in the first text-entry field titled "Commit message".
+5. コンテンツボックスの右上隅にある **変更をコミット...** をクリックします。 コミットでは、変更内容を説明する短いコミットメッセージを入力できます。 このメッセージは、他の人がコミットに含まれている内容を知るのに役立ちます。 GitHub はシンプルなデフォルトメッセージを提供しますが、練習のために少し変更してみましょう。 まず、「コミットメッセージ」というタイトルの最初のテキスト入力フィールドに `Add PROFILE.md` と入力します。
 
    ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
 
-6. In this lesson, we'll ignore the other fields and click **Commit changes**.
-7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+6. このレッスンでは、他のフィールドは無視して **変更をコミット** をクリックします。
+7. 約 20 秒待ってから、このページ (手順に従っているページ) を更新します。 [GitHub Actions](https://docs.github.com/ja/actions) が自動的に次のステップに更新されます。

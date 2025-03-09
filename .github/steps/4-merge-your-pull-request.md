@@ -5,27 +5,27 @@
   if users accidentally closed without merging.
 -->
 
-## Step 4: Merge your pull request
+## ステップ4：プルリクエストをマージする
 
-_Nicely done! :sunglasses:_
+_よくできました！ :sunglasses:_
 
-You successfully created a pull request. You can now merge your pull request.
+プルリクエストが正常に作成されました。 これで、プルリクエストをマージできます。
 
-**What is a merge?**: A _[merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge)_ adds the changes in your pull request and branch into the `main` branch. For more information about merges, see "[Merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)."
+**マージとは？**：_[マージ](https://docs.github.com/ja/get-started/quickstart/github-glossary#merge)_は、プルリクエストとブランチの変更を`main`ブランチに追加します。 マージの詳細については、「[プルリクエストのマージ](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)」を参照してください。
 
-As noted in the previous step, you may have seen evidence of GitHub Actions running which automatically progresses your instructions to the next step. You'll have to wait for it to finish before you can merge your pull request. It will be ready when the merge pull request button is green.
+前のステップで述べたように、GitHub Actionsが実行されているのを確認できたかもしれません。これは、指示を次のステップに自動的に進めます。 プルリクエストをマージする前に、それが完了するのを待つ必要があります。 プルリクエストのマージボタンが緑色になったら準備完了です。
 
-![screenshot of green merge pull request button](/images/Green-merge-pull-request.png)
+![緑色のプルリクエストのマージボタンのスクリーンショット](/images/Green-merge-pull-request.png)
 
-### :keyboard: Activity: Merge the pull request
+### :keyboard: アクティビティ：プルリクエストをマージする
 
-1. Click **Merge pull request**.
-2. Click **Confirm merge**.
-3. Once your branch has been merged, you don't need it anymore. To delete this branch, click **Delete branch**.
+1. **プルリクエストのマージ**をクリックします。
+2. **マージの確認**をクリックします。
+3. ブランチがマージされたら、もう必要ありません。 このブランチを削除するには、**ブランチの削除**をクリックします。
 
-   ![screenshot showing delete branch button](/images/delete-branch.png)
+   ![ブランチの削除ボタンを示すスクリーンショット](/images/delete-branch.png)
 
-4. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+4. 約20秒待ってから、このページ（指示に従っているページ）を更新します。 [GitHub Actions](https://docs.github.com/ja/actions)が自動的に次のステップに更新されます。
 
 > [!NOTE]
-> Check out the **Finish** step to see what you can learn next!
+> 次に何を学べるかを確認するには、**完了**ステップをチェックしてください！

@@ -2,43 +2,43 @@
 
 <!--
   <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  1280×640の画像、文頭大文字のコースタイトル、簡潔な説明（強調）を含めます。
+  リポジトリの設定で、テンプレートリポジトリを有効にし、1280×640のソーシャルイメージを追加し、ヘッドブランチを自動削除します。
+  オープンソースライセンスを追加します。GitHubはMITライセンスを使用します。
 -->
 
-# Introduction to GitHub
+# GitHub入門
 
-_Get started using GitHub in less than an hour._
+_1時間以内にGitHubを使い始めましょう。_
 
 </header>
 
 <!--
   <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+  スタートボタン、Actionsの利用時間に関する注意、
+  そして、学習者がこのコースを受講する理由を伝えます。
 -->
 
-## Welcome
+## ようこそ
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour.
+GitHubは、世界で最も高度なテクノロジーを構築するために利用されています。データの可視化や新しいゲームの構築など、GitHubにはコミュニティとツールが揃っており、より良い開発を支援します。GitHub Skillsの「GitHub入門」コースでは、貢献を始めるために必要なすべてを1時間以内に学ぶことができます。
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This course is a great introduction for your first day on GitHub.
-- **How long**: This course takes less than one hour to complete.
+- **対象者**: 新しい開発者、GitHubの新規ユーザー、学生。
+- **学習内容**: リポジトリ、ブランチ、コミット、プルリクエストを紹介します。
+- **作成するもの**: [プロファイルREADME](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)として使用できる、短いMarkdownファイルを作成します。
+- **前提条件**: なし。このコースは、GitHubでの最初の一日に最適な入門編です。
+- **所要時間**: このコースは1時間以内に完了します。
 
-In this course, you will:
+このコースでは、以下を行います。
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+1. ブランチを作成する
+2. ファイルをコミットする
+3. プルリクエストを開く
+4. プルリクエストをマージする
 
-### How to start this course
+### コースの開始方法
 
-<!-- For start course, run in JavaScript:
+<!-- コースを開始するためのJavaScriptの実行:
 'https://github.com/new?' + new URLSearchParams({
   template_owner: 'skills',
   template_name: 'introduction-to-github',
@@ -49,26 +49,26 @@ In this course, you will:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=yufunagi&template_name=introduction-to-github-ver-ja&owner=%40me&name=skills-introduction-to-github&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. **Start course**を右クリックして、新しいタブでリンクを開きます。
+2. 新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
+   - オーナーには、個人のアカウントまたはリポジトリをホストする組織を選択します。
+   - パブリックリポジトリを作成することをお勧めします。プライベートリポジトリは[Actionsの利用時間](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)を消費するためです。
+   - スクロールダウンして、フォームの下部にある**Create repository**ボタンをクリックします。
+3. 新しいリポジトリが作成されたら、約20秒待ってからページを更新します。新しいリポジトリのREADMEにあるステップバイステップの手順に従ってください。
 
 <footer>
 
 <!--
   <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  サポート、GitHubステータスページ、行動規範、ライセンスへのリンクを追加します。
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+ヘルプ: [ディスカッションボードに投稿](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [GitHubステータスページを確認](https://www.githubstatus.com/)
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2024 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
